@@ -4,7 +4,7 @@
   "description": "my personal eslint and prettier preferences",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "json -I -f package.json -e \"this.prettier=\"@tylerjlawson/prettier\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tylerjlawson/config/issues"
   },
-  "homepage": "https://github.com/tylerjlawson/config#readme"
+  "homepage": "https://github.com/tylerjlawson/config#readme",
+  "dependencies": {
+    "json": "^10.0.0"
+  }
 }
