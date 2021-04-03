@@ -1,7 +1,7 @@
 {
-  "name": "@tylerjlawson/config",
+  "name": "@tylerjlawson/eslint-config",
   "version": "1.0.0",
-  "description": "my personal eslint and prettier preferences",
+  "description": "my personal eslint preferences",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
