@@ -1,10 +1,10 @@
 {
   "name": "@tylerjlawson/prettier",
-  "version": "1.0.0",
+  "version": "1.0.12",
   "description": "my personal eslint and prettier preferences",
   "main": "index.js",
   "scripts": {
-    "postinstall": "json -I -f package.json -e \"this.prettier=\"@tylerjlawson/prettier\""
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/tylerjlawson/config/issues"
   },
-  "homepage": "https://github.com/tylerjlawson/config#readme",
-  "dependencies": {
-    "json": "^10.0.0"
-  }
+  "homepage": "https://github.com/tylerjlawson/config#readme"
 }
