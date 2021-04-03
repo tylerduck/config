@@ -1,0 +1,19 @@
+{
+  "name": "@tylerjlawson/config",
+  "version": "1.0.0",
+  "description": "my personal eslint and prettier preferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerjlawson/config.git"
+  },
+  "author": "tylerjlawson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerjlawson/config/issues"
+  },
+  "homepage": "https://github.com/tylerjlawson/config#readme"
+}
